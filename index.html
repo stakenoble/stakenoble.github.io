@@ -4,6 +4,22 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
+<!---SEO
+	<!-- search -->
+		<meta name="description" content="Single pool, bare metal, low fee. Stake Noble.">
+		<meta name="keywords" content="Cardano crypto baremetal ADA cryptocurrencies cryptocurrency stake pool stakepool"/>
+
+        <!-- open graph -->
+		<meta property="og:title" content="Stake Noble">
+		<meta property="og:description" content="Single pool, bare metal, low fee. Stake Noble.">
+		<meta property="og:image" content="favicon.png">
+		<meta property="og:url" content="https://www.stakenoble.com">
+
+        <!-- twitter -->
+		<meta name="twitter:title" content="Stake Noble">
+		<meta name="twitter:description" content="Single pool, bare metal, low fee. Stake Noble.">
+		<meta name="twitter:image" content="favicon.png">
+		<meta name="twitter:card" content="summary_large_image">
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
@@ -79,7 +95,7 @@
 			  			<div class="bottom-text">
 			  				<h1>Stake With Us</h1>
 				  			<p>
-							Stake with noble because we are cool.
+							Hi, we're Noble, and you should stake Noble.
 				  			</p>			  				
 			  			</div>			  						  			   			
 
@@ -115,7 +131,7 @@
    			<ul class="tabs"> 
    				<li class="active" data-id="tab-about"><i class="icon-user"></i><span>About</span></li>
    				<li data-id="tab-contact"><i class="icon-mail"></i><span>Contact</span></li>							
-								
+					<li data-id="tab-subscribe"><i class="icon-newspaper"></i><span>Subscribe</span></li>				
 				</ul> <!-- /tabs -->
 
 				<div class="tab-container">
@@ -129,7 +145,7 @@
 					   	<div class="row tab-entry-intro">
 					   		<div class="col-twelve with-bottom-line">
 
-					   			<h1>About Noble.</h1>
+					   			<h1>About Us.</h1>
 
 					   			<p class="lead">We chose the name Noble as an allusion to the Magic: the Gathering card "Noble Hierach". When we aren't working on the pool, we're probably gaming, printing, or disc golfing. 
 					   		</div>   	
@@ -176,7 +192,7 @@
 						            <div class="item-content">
 						            	<h3 class="h05">Low Fee</h3>
 
-							            <p>We commit to being among the lowest fee pools regardless of changing network parameters. We aren't here to make a big profit or sponsor charity- fees cover costs of operation and only those costs. 
+							            <p>We commit to being among the lowest fee pools regardless changing network parameters. We aren't here to make a big profit or sponsor charity- fees cover costs of operation and only those costs. 
 						        			</p> 
 
 						        			
@@ -206,7 +222,7 @@
 						            <div class="item-content">	
 						            	<h3 class="h05">Tech Professionals/Nerds</h3>
 
-							            <p>We started getting involved with crypto mining around 2013. We have a combined 10 years of IT experience	that we to use to add value to the community by continuing to build tools. Stay tuned for news on our upcoming projects!
+							            <p>We started getting involved with crypto mining around 2013. We have a combined 10 years of IT experience	that we to use to add value to the community by continuing to build tools. Stay tuned for news on our upcoming projects.
 							        </p>
 
 							            					        			</p> 
@@ -248,20 +264,103 @@
 							<div class="row tab-entry-intro">
 					   		<div class="col-twelve with-bottom-line">
 
-					   			<h1>Get In Touch on <a href="https://t.me/stakenoble_chat">Telegram</a> or <a href="https://twitter.com/stakenoble">Twitter<a></h1>
+					   			<h1>Get In Touch.</h1>
 
 					   			<p class="lead">Talk to us! We're eager to know your thoughts and feelings about the pool.</p>
 
 					   		</div>   		
 					   	</div> <!-- /tab-content-intro -->
 
-								   		
+					   	<div class="row form-wrap tab-entry-content">
+					   		<div class="col-twelve">
+
+					            <!-- form -->
+					            <form name="contactForm" id="contactForm" method="post" action="mailto:stakenoble@gmail.com">
+					      			<fieldset>
+
+					                  <div class="form-field">
+					 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+					                  </div>
+					                  <div class="form-field">
+						      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+						               </div>
+					                  <div class="form-field">
+						     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+						               </div>                       
+					                  <div class="form-field">
+						                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+						               </div>                      
+					                 <div class="form-field">
+					                     <button class="submitForm button button-primary large">Submit</button>
+
+					                     <div id="submit-loader">
+					                        <div class="text-loader">Sending...</div>                             
+					       				      <div class="s-loader">
+													  	<div class="bounce1"></div>
+													  	<div class="bounce2"></div>
+													  	<div class="bounce3"></div>
+													</div>
+												</div><!-- submit-loader -->
+					                  </div>
+
+					      			</fieldset>
+					      		</form> <!-- /form -->
+
+					            <!-- contact-warning -->
+					            <div id="message-warning">            	
+					            </div>            
+					            <!-- contact-success -->
+					      		<div id="message-success">
+					               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+					      		</div>
+
+					         </div> <!-- /col-twelve -->					   		
+					   	</div> <!-- /row contact-form -->
 
 						</div> <!-- /tab-entry --> 					
 
 					</div> <!-- /tab-contact -->
 
 
+					<!-- tab content - subscribe
+   				================================================== -->
+					<div id="tab-subscribe" class="tab-content">
+
+						<div class="tab-entry">
+
+							<div class="row tab-entry-intro">
+					   		<div class="col-twelve with-bottom-line">
+
+					   			<h1>Subcribe To Our Mailing List.</h1>
+
+					   			<p class="lead">Keep up with what we are working on!</p>
+
+					   		</div>   		
+					   	</div> <!-- /tab-content-intro -->
+
+					   	<div class="row form-wrap tab-entry-content">
+					   		<div class="col-twelve">
+
+					   			<form id="mc-form" class="group" novalidate="true">
+
+										<div class="form-field">					
+						   				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">					   				
+						   			</div>
+
+							   		<div class="form-field">	
+							   			<input type="submit" value="Get Notified" name="subscribe" class="button button-primary large">
+							   		</div>
+
+							   		<label for="mce-EMAIL" class="subscribe-message"></label>
+									
+									</form>
+
+					   		</div> <!-- /twelve -->
+					   	</div> <!-- subscribe-form -->
+
+						</div> <!-- /tab-entry --> 						
+
+					</div> <!-- /tab-subscribe -->										
 
 				</div> <!-- /tab-container -->
    			
