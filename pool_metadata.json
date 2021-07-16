@@ -2,5 +2,6 @@
 	"name":"Noble Stake Pool",
 	"description":"Single pool, bare-metal, low fee. Stake Noble.",
 	"ticker":"NOBLE",
-	"homepage": "https://stakenoble.com"
+	"homepage": "https://stakenoble.com",
+	"extended": "https://stakenoble.com/extended_metadata.json"
 }
